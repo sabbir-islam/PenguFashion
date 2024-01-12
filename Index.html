@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pengu Fashion</title>
+    <!-- tailwind link here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                bannerbg: '#FFFBF0',
+              }
+            }
+          }
+        }
+      </script>
+
+<script src="https://kit.fontawesome.com/1fb895dcbf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <!-- Nav bar start from here  -->
+
+        <!-- Nav bar end from here  -->
+    </header>
+    <body>
+      <!-- Entry banner start here  -->
+      <header class="bg-bannerbg pb-32 pt-10 mx-3 sm:mx-0">
+        <div class="container mx-auto sm:flex items-center justify-around ">
+          <div class="space-y-5">
+            <h1 class="text-5xl uppercase font-bold ">
+              <span class="text-[#eab308]">Be the Penguins</span>
+              <br>
+              <span class="text-[#172554]">of Winter</span>
+            </h1>
+            <p>Best jacket for winter. Grab it fast for ultimate comfort during this winter</p>
+            <button class="bg-[#65a30d] uppercase py-4 px-8 text-white font-semibold rounded-lg cursor-pointer"><i class="fa-solid fa-cart-shopping me-2"></i>Buy Now</button>
+          </div>
+          <div class="">
+            <img src="images/model.png" alt="">
+          </div>
+        </div>
+      </header>
+      <!-- Entry banner end here  -->
+    </body>
 </body>
 </html>
